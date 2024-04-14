@@ -1,0 +1,9 @@
+Script started on 2024-04-14 17:53:15+03:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="156" LINES="19"]
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps[01;31m[00m$ exitdocker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps[01;31m[00m$ docker ps -a[8Pexitdocker ps -ans-train splatfacto --data data/mirrornerf/washroom nerfstudio-data --eval-mode filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a[K[8Pexitdocker ps -a[Kdocer image ls[1@l[1P[1@k
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps[01;31m[00m$ exit
+[?2004lexit
+
+Script done on 2024-04-14 17:53:36+03:00 [COMMAND_EXIT_CODE="0"]

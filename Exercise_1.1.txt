@@ -1,0 +1,10 @@
+Script started on 2024-04-14 17:39:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="139" LINES="25"]
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps[01;31m[00m$ [7mdocker ps -a[27mdocker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+bb79a7e823ce   nginx     "/docker-entrypoint.…"   6 minutes ago   Up 6 minutes               80/tcp    nginx3
+46674343dfaa   nginx     "/docker-entrypoint.…"   6 minutes ago   Exited (0) 6 minutes ago             nginx2
+ba76f87af2cc   nginx     "/docker-entrypoint.…"   6 minutes ago   Exited (0) 6 minutes ago             nginx1
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps[01;31m[00m$ exit
+[?2004lexit
+
+Script done on 2024-04-14 17:40:22+03:00 [COMMAND_EXIT_CODE="0"]
