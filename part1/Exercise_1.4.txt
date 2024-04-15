@@ -1,0 +1,3 @@
+docker run -d -it --rm --name miss ubuntu sh -c 'apt-get update && apt-get install -y curl && while true; do echo "I
+nput website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
