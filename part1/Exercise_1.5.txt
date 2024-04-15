@@ -1,0 +1,24 @@
+Terminal 1：
+docker pull devopsdockeruh/simple-web-service:ubuntu
+docker pull devopsdockeruh/simple-web-service:alpine
+
+fangj1@standalone-fangj1:~/Code/DevOps/DevOps_with_docker_Helsinki(master)$ docker image ls
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              22.04     ca2b0f26964c   6 weeks ago   77.9MB
+ubuntu                              latest    ca2b0f26964c   6 weeks ago   77.9MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+devopsdockeruh/simple-web-service   latest    99f995eeaa58   3 years ago   10.1MB
+
+fangj1@standalone-fangj1:~/Code/DevOps/DevOps_with_docker_Helsinki(master)$ docker run -d --rm -it --name alpine-web-service devopsdockeruh/simple-web-service:alpine
+4cee097beaf9079a40fe8be900d8519c44c7c27bc5144fd147d7721d7cc8fb8d
+Terminal 2:
+fangj1@standalone-fangj1:~/Code/DevOps/DevOps_with_docker_Helsinki(master)$ docker exec -it alpine-web-service sh
+/usr/src/app # tail -f ./text.log
+2024-04-15 19:08:10 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-04-15 19:08:12 +0000 UTC
+2024-04-15 19:08:14 +0000 UTC
+2024-04-15 19:08:16 +0000 UTC
+2024-04-15 19:08:18 +0000 UTC
+2024-04-15 19:08:20 +0000 UTC

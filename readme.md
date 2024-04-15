@@ -35,10 +35,13 @@ https://linux.die.net/man/1/script
 | `docker attach --no-srdin <container>` | Keep logs open and not attach STDIN ||
 | `docker container exec <container>` | Executes a command inside the container | `docker exec` |
 | `docker exec -it looper bash`| execute the Bash shell in the container in interactive mode| |
+| `docker search <container>:<tag>`| search image | |
+
 ## Commands
 
 `docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'`, -c refer to command
 
-`docker run -d --rm -it --name looper-it ubuntu sh -c 'while true; do date; sleep 1; done`, --rm ensures that there are no garbage containers left behind when exited from the container. It alse means `docker start` can not be used to start the container after it has exited.
+`docker run -d --rm -it --name looper-it ubuntu sh -c 'while true; do date; sleep 1; done`, --rm ensures that there are no garbage containers left behind when exited from the container. It also means `docker start` can not be used to start the container after it has exited.
 
+# Part2
 
