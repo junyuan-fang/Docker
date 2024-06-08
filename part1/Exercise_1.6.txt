@@ -1,0 +1,11 @@
+Script started on 2024-04-15 23:03:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="156" LINES="30"]
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1[01;31m(master)[00m$ exitdocker run -it devopsdockeruh/pull_exercise/usr/bin/python3 /home/fangj1/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/printEnvVariablesToFile.py /home/fangj1/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/deactivate/bash/envVars.txt[A[31Pdocker run -it devopsdockeruh/pull_exercise
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[?2004h[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1[01;31m(master)[00m$ exit
+[?2004lexit
+
+Script done on 2024-04-15 23:03:15+03:00 [COMMAND_EXIT_CODE="0"]
