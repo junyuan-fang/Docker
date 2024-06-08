@@ -1,0 +1,36 @@
+Script started on 2024-06-08 22:25:26+03:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="179" LINES="18"]
+[?2004h]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;31m(master)[00m$ [K]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;31m(master)[00m$ [7mdocker build . -t[27mdocker build . -t curler
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                                                                                                                             docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (10/10) FINISHED                                                                                                                                  docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                                          0.0s
+[0m[34m => => transferring dockerfile: 636B                                                                                                                                          0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:22.04                                                                                                               0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                                             0.0s
+[0m[34m => => transferring context: 2B                                                                                                                                               0.0s
+[0m[34m => [1/5] FROM docker.io/library/ubuntu:22.04                                                                                                                                 0.0s
+[0m[34m => [internal] load build context                                                                                                                                             0.0s
+[0m[34m => => transferring context: 30B                                                                                                                                              0.0s
+[0m[34m => CACHED [2/5] WORKDIR /usr/src/app                                                                                                                                         0.0s
+[0m[34m => CACHED [3/5] RUN apt-get update && apt-get install -y curl                                                                                                                0.0s
+[0m[34m => CACHED [4/5] COPY script.sh .                                                                                                                                             0.0s
+[0m[34m => CACHED [5/5] RUN chmod +x script.sh                                                                                                                                       0.0s
+[0m[34m => exporting to image                                                                                                                                                        0.0s
+[0m[34m => => exporting layers                                                                                                                                                       0.0s
+[0m[34m => => writing image sha256:ea47134addfba5f0a26942178762715b877222cf624bf4fb89077bd91c977faf                                                                                  0.0s
+[0m[34m => => naming to docker.io/library/curler                                                                                                                                     0.0s
+[0m[?25h[?2004h]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;31m(master)[00m$ docker run -it curler
+[?2004lInput website:
+helsinki.fi
+Searching..
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+Input website:
+^C[?2004h]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.7[01;31m(master)[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-08 22:26:27+03:00 [COMMAND_EXIT_CODE="130"]
