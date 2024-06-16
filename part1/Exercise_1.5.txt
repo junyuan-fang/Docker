@@ -6,7 +6,7 @@ fangj1@standalone-fangj1:~/Code/DevOps/DevOps_with_docker_Helsinki(master)$ dock
 REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
 ubuntu                              22.04     ca2b0f26964c   6 weeks ago   77.9MB
 ubuntu                              latest    ca2b0f26964c   6 weeks ago   77.9MB
-devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MBte
 devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
 devopsdockeruh/simple-web-service   latest    99f995eeaa58   3 years ago   10.1MB
 

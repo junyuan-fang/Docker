@@ -1,0 +1,16 @@
+docker run -it -p 8080:8080 devopsdockeruh/simple-web-service serverScript started on 2024-06-15 11:09:47+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="145" LINES="15"]
+[?2004h]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;31m(master)[00m$ docke [K[K[K[K[K[Kexitdocker run -p 8080:8080 server server[13Pbuild . -t[C[C[C[C[C[C[C[24@run -p 8080:8080 peaceful_franklin[C[C[C[C[C[C[C[25Pcontainer ls  -arun -p 8080:8080 peaceful_franklin server[24Pbuild . -t[C[C[C[C[C[C[C[13@run -p 8080:8080 server[C[C[C[C[C[C[Cexit[K[Kdocker run -it -p 8080:8080 [7mdevopsdockeruh/simple-web-serv[27m[7mi[27m[7mce server[27m[A]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;31m(master)[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdevopsdockeruh/simple-web-service server
+[?2004l[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/15 - 08:10:26 |[97;42m 200 [0m|      20.573µs |      172.17.0.1 |[97;44m GET     [0m "/"
+[GIN] 2024/06/15 - 08:10:27 |[97;42m 200 [0m|      23.559µs |      172.17.0.1 |[97;44m GET     [0m "/favicon.ico"
+^C[?2004h]0;fangj1@standalone-fangj1: ~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;32mfangj1@standalone-fangj1[00m:[01;34m~/Code/DevOps/DevOps_with_docker_Helsinki/part1/1.10[01;31m(master)[00m$ exit 
+[?2004lexit
+
+Script done on 2024-06-15 11:10:37+03:00 [COMMAND_EXIT_CODE="2"]

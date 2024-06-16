@@ -1,0 +1,23 @@
+# 使用官方 Node.js 16 作为基础镜像
+FROM node:16
+
+# 设置工作目录
+WORKDIR /app
+
+# 复制项目文件
+COPY . .
+
+# 安装依赖项
+RUN npm install
+
+# 构建静态文件
+RUN npm run build
+
+# 安装 serve 包用于提供静态文件
+RUN npm install -g serve
+
+# 暴露端口 5000
+EXPOSE 5000
+
+# 使用 serve 提供静态文件，并绑定到 0.0.0.0
+CMD ["serve", "-s", "-l", "5000", "build"]
